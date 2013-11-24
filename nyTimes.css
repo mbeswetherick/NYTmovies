@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+body {
+	margin: 0;
+	font-family: 'Oswald';
+}
+
+
+#top{
+	margin-left: 17%;
+	margin-bottom: 2em;
+	height: 400px;
+}
+
+#left {
+	padding-right: 3em;
+	border-right: 5px solid;
+	border-bottom: 5px solid;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-top: 40px;
+	margin-top: 0px;
+	position: relative;
+	width: 310px;
+}
+
+#saved, #left {
+	display: inline-block;
+}
+
+#saved {
+	height: 266px;
+	top: -6px;
+	position: relative;
+}
+
+#email:hover, #add:hover, #next:hover{
+	background-color: white;
+	color: black;
+}
+
+#email {
+	font-size: 20pt;
+	padding-top: 22px;
+	text-align: center;
+	height: 62px;
+	display: inline-block;
+	width: 100%;
+	display: none;
+	background-color: rgb(80,80,80);
+}
+
+#next{
+	float: right;
+	background-color: black;
+	display: inline-block;
+}
+
+#controls {
+	margin-bottom: 2em;
+	background-color: rgb(56,160, 104);
+	margin-left: 17%;
+	width: 380px;
+	display: inline-block;
+	float: left;
+}
+
+#add {
+	width: 57px;
+	padding: 1.8em;
+	float: left;
+}
+
+#next, #add{
+	font-size: 22pt;
+}
+
+#next {
+	padding: 1.8em;
+}
+
+ul{
+	margin-top: 0px;
+	font-size: 13pt;
+	color: rgb(80,80,80);
+	height: 200px;
+	top: 0px;
+	display: inline-block;
+	position: relative;
+	overflow: scroll;
+	margin-left: 40px;
+}
+
+h1{
+	font-size: 26pt;
+	margin-bottom: 5px;
+}
+
+h2{
+	font-size: 49pt;
+	font-weight: 700;
+	margin: 0;
+	float: left;
+}
+
+h3{
+	margin-bottom: 10px;
+	font-size: 20pt;
+	display: none;
+	margin-left: 59px;
+	color: rgb(80,80,80);
+}
+
+.piece {
+	display: inline-block;
+	height: 176px;
+	position: relative;
+	margin-left: 3em;
+	width: 550px;
+	top: -21px;
+}
+
+p {
+	clear: left;
+	line-height: 25pt;
+	margin: 0;
+	font-size: 17pt;
+	width: 350px;
+
+}
+
+#next, #add, #email{
+	display: inline-block;
+	color: white;
+	cursor: pointer;
+	transition: color, background-color, 0.35s;
+	-webkit-transition: color, background-color, 0.35s; /* Safari */
+}
